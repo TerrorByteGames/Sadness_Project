@@ -454,7 +454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &83288181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -809,6 +809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589923266}
   - component: {fileID: 589923265}
+  - component: {fileID: 589923267}
   m_Layer: 0
   m_Name: TimeLine
   m_TagString: Untagged
@@ -825,7 +826,7 @@ PlayableDirector:
   m_GameObject: {fileID: 589923264}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f381c806b86b27c4b9fee89b6d9b5b29, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: a2d581d002a3a1247ba4875335da5d71, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -847,15 +848,27 @@ PlayableDirector:
     value: {fileID: 83288180}
   - key: {fileID: 5994721952433135234, guid: f381c806b86b27c4b9fee89b6d9b5b29, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -571457884493465677, guid: a2d581d002a3a1247ba4875335da5d71, type: 2}
+    value: {fileID: 2120937019}
+  - key: {fileID: -753791302603663022, guid: a2d581d002a3a1247ba4875335da5d71, type: 2}
+    value: {fileID: 1358073156}
+  - key: {fileID: 2616338958856774922, guid: a2d581d002a3a1247ba4875335da5d71, type: 2}
+    value: {fileID: 1987061901}
   m_ExposedReferences:
     m_References:
     - 67b1273de4a0d0b41b13b79ea6280981: {fileID: 793351702}
     - 115166f004359094a9b2689c524ba0b6: {fileID: 793351702}
     - 31b0db86544fd574cae31961f17c4c12: {fileID: 1987061902}
+    - 1bb1698ef067fb144a2461f4fa76a18a: {fileID: 793351702}
+    - 8e27d9d1b096d6e4ab8f92688251957c: {fileID: 120945977}
     - 74e44440b579e8744b122d520463607e: {fileID: 120945977}
     - 8e958c0fff4c0534390e60e38eb30c5c: {fileID: 1987061902}
     - 415145c9c71ea4346a435dcea70f5604: {fileID: 120945977}
+    - 3618f501911f45744a8fd19b113c9287: {fileID: 1987061902}
     - 51829319df703cd448143d89c941bdd5: {fileID: 793351702}
+    - 6ded5ac922dd8fa45bca271a663e2d02: {fileID: 83288180}
+    - 61ba1df1d6db24140b2eab7fc1300a14: {fileID: 1113239275}
+    - 342a3740d57d55f47be2b8b8cf19f770: {fileID: 1358073155}
 --- !u!4 &589923266
 Transform:
   m_ObjectHideFlags: 0
@@ -865,12 +878,34 @@ Transform:
   m_GameObject: {fileID: 589923264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.19952, y: 1.6439278, z: -185.2}
+  m_LocalPosition: {x: -23.19952, y: 1.6439278, z: -175.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &589923267
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589923264}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &612338278
 GameObject:
   m_ObjectHideFlags: 3
@@ -1264,7 +1299,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1113239276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1685,7 +1720,7 @@ Transform:
   m_GameObject: {fileID: 1358073155}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -99.22765, y: 8.418696, z: -163.64749}
+  m_LocalPosition: {x: -99.22765, y: 8.418696, z: -166.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2058,7 +2093,7 @@ Transform:
   m_Children:
   - {fileID: 115438755}
   m_Father: {fileID: 674121467}
-  m_LocalEulerAnglesHint: {x: -5, y: 5, z: 359}
+  m_LocalEulerAnglesHint: {x: 0, y: -6, z: -1}
 --- !u!95 &1987061901
 Animator:
   serializedVersion: 7
