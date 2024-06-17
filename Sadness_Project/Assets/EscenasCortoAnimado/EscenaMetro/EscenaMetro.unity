@@ -319,6 +319,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModeloTrenNS-74V2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5569775664299801005, guid: fd44f915bdda7ef48971dfa1c371fb5c,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: aebaa67f15347774c82375035ed00558, type: 2}
+    - target: {fileID: 5569775664299801005, guid: fd44f915bdda7ef48971dfa1c371fb5c,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa57dd6cd350fe54dba79a1a5a3dbe15, type: 2}
+    - target: {fileID: 5569775664299801005, guid: fd44f915bdda7ef48971dfa1c371fb5c,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa57dd6cd350fe54dba79a1a5a3dbe15, type: 2}
+    - target: {fileID: 5938141606490841995, guid: fd44f915bdda7ef48971dfa1c371fb5c,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[10]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa57dd6cd350fe54dba79a1a5a3dbe15, type: 2}
+    - target: {fileID: 5938141606490841995, guid: fd44f915bdda7ef48971dfa1c371fb5c,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[14]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa57dd6cd350fe54dba79a1a5a3dbe15, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -5988414514076952073, guid: fd44f915bdda7ef48971dfa1c371fb5c, type: 3}

@@ -177,10 +177,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "-Douglas Vargas:\n\nCreaci\xF3n de Personajes\nAnimadores Personajes\nPost-procesado\n\n-Felipe
-    Figueroa:\n\nModelado escena tren en el tunel\r\nModelado escena departamento
-    de juan con la decoracion interior\r\nModelado oficina del trabajo de juan con
-    la decoracion interior \n\n-Gabriel Vilches:\n\nAnimador Escenarios\nPlanos de
-    C\xE1mara\nIntegraci\xF3n en Unity"
+    Figueroa:\n\nNarrativa\nModelado escena tren\r\nModelado escena departamento\r\nModelado
+    oficina \n\n-Gabriel Vilches:\n\nNarrativa\nAnimador Escenarios\nPlanos de C\xE1mara\nIntegraci\xF3n
+    en Unity\nEncargado de SFX\n\nHonorable mencion a \nsleepy__dude"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a074040643489934ab6d14d67c8b07bb, type: 2}
   m_sharedMaterial: {fileID: -9016243371298257292, guid: a074040643489934ab6d14d67c8b07bb,
